@@ -7,7 +7,7 @@ I'm Ashok Arikatla from India, and I am a PHP Developer. I really enjoy learning
 ### Skills and Work Experience
 
 - 🖥️ PHP, LARAVEL
-- :MySQL MySQL
+- 💻 MySQL
 - 🖥️ HTML, CSS, JS, jQuery, BOOTSTRAP
 - 💻 I’m currently learning React 
 
