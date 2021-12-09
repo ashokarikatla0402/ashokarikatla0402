@@ -4,9 +4,11 @@
 
 I'm Ashok Arikatla from India, and I am a PHP Developer. I really enjoy learning languages and frameworks like React and React Native as well as working on Laravel.
 
-####Skills and Work Experience
+#### Skills and Work Experience
 
-HTML / CSS / JS / jQuery / BOOTSTRAP / PHP / LARAVEL
+- PHP, LARAVEL
+- MySQL
+- HTML, CSS, JS, jQuery, BOOTSTRAP
 
 - 🌱 I’m currently learning React.JS 
 
