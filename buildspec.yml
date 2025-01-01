@@ -19,5 +19,3 @@ phases:
     commands:
       - echo "Post build steps..."
       - echo "Starting CodeDeploy agent..."
-      - sudo systemctl start codedeploy-agent
-      - sudo systemctl enable codedeploy-agent
