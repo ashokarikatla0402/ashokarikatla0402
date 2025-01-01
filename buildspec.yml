@@ -16,8 +16,20 @@ phases:
       - sudo apt-get update -y  # Ensure packages are updated from the new repository
 
       # Install PHP 8.0 and the required extensions
-      - sudo apt-get install -y php8.0 php8.0-cli php8.0-fpm php8.0-mbstring php8.0-xml php8.0-mysql php8.0-imap php8.0-gd php8.0-zip \
-        php8.0-soap php8.0-redis php8.0-tidy php8.0-xmlrpc php8.0-imagick
+      - sudo apt-get install -y \
+        php8.0 php8.0-cli php8.0-fpm php8.0-mbstring php8.0-xml php8.0-mysql php8.0-imap php8.0-gd php8.0-zip \
+        php8.0-redis php8.0-tidy php8.0-xmlrpc php8.0-imagick
+
+      # Install SOAP extension (workaround if php8.0-soap isn't found)
+      - sudo apt-get install -y php-soap  # This may work for PHP 8.0
+      
+      # If php-soap isn't available, try PECL method (uncomment the next lines to use it)
+      #- sudo apt-get install php-pear php8.0-dev
+      #- sudo apt-get install libxml2-dev
+      #- sudo pecl install soap
+      #- echo "extension=soap.so" | sudo tee -a /etc/php/8.0/cli/php.ini
+      #- echo "extension=soap.so" | sudo tee -a /etc/php/8.0/fpm/php.ini
+      #- sudo systemctl restart php8.0-fpm
 
       # Install AWS CLI
       - curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
