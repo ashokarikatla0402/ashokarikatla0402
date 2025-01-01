@@ -2,20 +2,22 @@ version: 0.2
 
 phases:
   install:
+    runtime-versions:
+      ruby: 2.7  # Install Ruby version 2.7 (or any other version you need)
     commands:
-      - echo "Installing dependencies..."
-
+      - echo "Installing Ruby..."
+      - sudo yum install -y ruby wget  # Install Ruby and wget (required for CodeDeploy agent)
+      - echo "Installing CodeDeploy Agent..."
+      - sudo yum install -y https://github.com/aws/aws-codedeploy-agent/releases/download/v1.7.1/codedeploy-agent-1.7.1-110.noarch.rpm
   pre_build:
     commands:
-      - echo "Running pre-build tasks..."
+      - echo "Preparing environment for deployment..."
   build:
     commands:
-      - echo "Start building..."
-
+      - echo "Running build steps..."
   post_build:
     commands:
-      - echo "Build completed."
-
-artifacts:
-  files:
-    - "**/*"
+      - echo "Post build steps..."
+      - echo "Starting CodeDeploy agent..."
+      - sudo systemctl start codedeploy-agent
+      - sudo systemctl enable codedeploy-agent
