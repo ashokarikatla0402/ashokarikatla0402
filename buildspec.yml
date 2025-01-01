@@ -1,9 +1,8 @@
-version: 0.2
+version: 0.1
 
 phases:
   install:
     runtime-versions:
-      nodejs: 12
       php: 8.0
   pre_build:
     commands:
@@ -20,9 +19,6 @@ phases:
   build:
     commands:
       - echo Start building...
-      - aws s3 cp s3://env-configs.flix360.io/feed/temp/.env ./.env
-      - composer install -o --no-interaction --prefer-dist --optimize-autoloader --ignore-platform-reqs
-      - php artisan horizon:publish
 artifacts:
   files:
     - "**/*"
