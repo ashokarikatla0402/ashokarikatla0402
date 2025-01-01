@@ -3,7 +3,7 @@ version: 0.2
 phases:
   install:
     runtime-versions:
-      ruby: 2.7.6  # Install Ruby version 2.7 (or any other version you need)
+      ruby: 3.2.2  # Install Ruby version 2.7 (or any other version you need)
     commands:
       - echo "Installing Ruby..."
       - sudo yum install -y ruby wget  # Install Ruby and wget (required for CodeDeploy agent)
