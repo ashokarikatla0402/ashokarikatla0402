@@ -16,19 +16,13 @@ phases:
       - sudo apt-get update -y
 
       # Install PHP 8.0 and the required extensions
-      - sudo apt-get install -y \
-        php8.0 php8.0-cli php8.0-fpm php8.0-mbstring php8.0-xml php8.0-mysql php8.0-imap php8.0-gd php8.0-zip \
-        php8.0-tidy php8.0-xmlrpc php8.0-imagick php8.0-soap
+      - sudo apt-get install -y php8.0-cli php8.0-fpm php8.0-mbstring php8.0-xml php8.0-mysql php8.0-imap php8.0-gd php8.0-zip php8.0-xmlrpc php8.0-imagick php8.0-soap
 
       # Install AWS CLI
       - curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
       - unzip awscliv2.zip
       - rm awscliv2.zip
       - sudo ./aws/install --update
-
-      # Install Composer (if it's not already in the environment)
-      - curl -sS https://getcomposer.org/installer | php
-      - sudo mv composer.phar /usr/local/bin/composer
 
   pre_build:
     commands:
