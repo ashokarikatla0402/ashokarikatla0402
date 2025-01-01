@@ -18,7 +18,7 @@ phases:
       # Install PHP 8.0 and the required extensions
       - sudo apt-get install -y \
         php8.0 php8.0-cli php8.0-fpm php8.0-mbstring php8.0-xml php8.0-mysql php8.0-imap php8.0-gd php8.0-zip \
-        php8.0-redis php8.0-tidy php8.0-xmlrpc php8.0-imagick php8.0-soap
+        php8.0-tidy php8.0-xmlrpc php8.0-imagick php8.0-soap
 
       # Install AWS CLI
       - curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
@@ -37,9 +37,6 @@ phases:
   build:
     commands:
       - echo "Start building..."
-      - aws s3 cp s3://env-configs.flix360.io/feed/temp/.env ./.env
-      - composer install -o --no-interaction --prefer-dist --optimize-autoloader --ignore-platform-reqs
-      - php artisan horizon:publish
 
   post_build:
     commands:
