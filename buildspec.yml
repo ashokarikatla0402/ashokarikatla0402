@@ -6,31 +6,44 @@ phases:
       nodejs: 12  # Only specify Node.js runtime here
     commands:
       - echo "Installing dependencies..."
+      
       # Update and install required packages for Ubuntu
       - sudo apt-get update -y
       - sudo apt-get install -y lsb-release ca-certificates apt-transport-https software-properties-common curl unzip
+
       # Add the Ondrej PHP repository to get PHP 8.0
       - sudo add-apt-repository ppa:ondrej/php -y
-      - sudo apt-get update -y
-      # Install PHP 8.0 and required extensions
-      - sudo apt-get install -y \
-        php8.0 php8.0-cli php8.0-fpm php8.0-mbstring php8.0-xml php8.0-mysql php8.0-imap php8.0-gd php8.0-zip \
+      - sudo apt-get update -y  # Ensure packages are updated from the new repository
+
+      # Install PHP 8.0 and the required extensions
+      - sudo apt-get install -y php8.0 php8.0-cli php8.0-fpm php8.0-mbstring php8.0-xml php8.0-mysql php8.0-imap php8.0-gd php8.0-zip \
         php8.0-soap php8.0-redis php8.0-tidy php8.0-xmlrpc php8.0-imagick
+
       # Install AWS CLI
       - curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
       - unzip awscliv2.zip
       - rm awscliv2.zip
       - sudo ./aws/install --update
+
       # Install Composer (if it's not already in the environment)
       - curl -sS https://getcomposer.org/installer | php
       - sudo mv composer.phar /usr/local/bin/composer
+
   pre_build:
     commands:
       - echo "Running pre-build tasks..."
       # Optional: Install any additional dependencies or setup here
+
   build:
     commands:
       - echo "Start building..."
+      # Fetch environment variables from S3
+      - aws s3 cp s3://env-configs.flix360.io/feed/temp/.env ./.env
+      # Install Composer dependencies
+      - composer install -o --no-interaction --prefer-dist --optimize-autoloader --ignore-platform-reqs
+      # Publish Laravel Horizon (if Laravel is being used)
+      - php artisan horizon:publish
+
   post_build:
     commands:
       - echo "Build completed."
