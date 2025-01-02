@@ -1,6 +1,7 @@
 version: 0.2
+
 phases:
- install:
+  install:
     runtime-versions:
       ruby: 3.2.2  # Install Ruby version 2.7 (or any other version you need)
     commands:
