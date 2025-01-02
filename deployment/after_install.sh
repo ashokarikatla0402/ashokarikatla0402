@@ -1,16 +1,18 @@
-#!/bin/bash
+# Define the target directory
+TARGET_DIR="/var/www/html"
 
-# Copying all files (if this is meant to copy files, ensure that you do the copy operation here)
-echo "Copying all files to /var/www/html/..."
+# Copying all files to /var/www/html/
+echo "Copying all files to $TARGET_DIR..."
 
-cd /var/www/html/ || { echo "Directory /var/www/html/ not found! Exiting..."; exit 1; }
+# Navigate to the target directory
+cd "$TARGET_DIR" || { echo "Directory $TARGET_DIR not found! Exiting..."; exit 1; }
 
-# Build the app environment
+# Build the app environment (Add any necessary build steps here)
 echo "Building environment..."
 
-# Assuming you're building an app, you can add the build steps here
-# For example: npm install, composer install, etc.
-# For now, we're just echoing a message as a placeholder.
+# Example: Install dependencies (uncomment and customize if necessary)
+# npm install
+# composer install
 
 # Finish build environment
 echo "Finished building environment."
