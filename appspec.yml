@@ -1,0 +1,20 @@
+version: 0.0
+os: linux
+files:
+  - source: / # this is the location of the application in the source code e.g /build 
+    destination: /var/www/html # this is the directory destination where the code will be deployed on the server
+file_exists_behavior: OVERWRITE
+
+hooks: # Hooks are optional
+
+  #From last successful deployment
+  ApplicationStop:
+    - location: deployment/before_install.sh
+      timeout: 30
+      runas: root
+
+  #From
+  AfterInstall:
+    - location: deployment/after_install.sh
+      timeout: 300
+      runas: root
