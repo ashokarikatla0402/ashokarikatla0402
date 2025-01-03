@@ -10,8 +10,6 @@ As a seasoned **Full Stack Developer**, I bring comprehensive expertise in both 
 
 ## Technical Skills & Expertise
 
-Below is a list of my core skills and technologies I work with:
-
 ### Frontend Development
 - **HTML**
 - **CSS**
@@ -43,27 +41,25 @@ Below is a list of my core skills and technologies I work with:
 
 ## My Portfolio
 
-Here is a simplified version of my skills portfolio, which may not fully replicate the web page appearance due to markdown limitations but still offers a structured look.
+Here is a simplified version of my skills portfolio:
 
-### Full Stack Developer Skills
-
-#### Frontend Development
+### Frontend Development
 ![HTML Icon](https://img.icons8.com/ios/452/html-5.png) 
 - HTML, CSS, JavaScript, jQuery, Bootstrap
 
-#### Backend Development
+### Backend Development
 ![PHP Icon](https://img.icons8.com/ios/452/php-logo.png) 
 - PHP, Laravel
 
-#### Database Management
+### Database Management
 ![MySQL Icon](https://img.icons8.com/ios/452/mysql-logo.png) 
 - MySQL for efficient data storage and retrieval
 
-#### Cloud Computing (AWS)
+### Cloud Computing (AWS)
 ![AWS Icon](https://img.icons8.com/ios/452/aws.png) 
 - Experience with AWS services like EC2, RDS, Route 53, S3, and more
 
-#### Python Programming
+### Python Programming
 ![Python Icon](https://img.icons8.com/ios/452/python.png) 
 - Python for backend development and automation tasks
 
