@@ -1,16 +1,29 @@
-## Hi there 👋, Ashok Arikatla
-### Software Developer
-![Software Developer](https://user-images.githubusercontent.com/32868860/145367311-5c20392f-a9c8-4773-b7d3-dd41c5000e80.png)
+# Ashok Arikatla  
+**Full Stack Developer** | India
 
-I'm Ashok Arikatla from India, and I am a PHP Developer. I really enjoy learning languages and frameworks like React and React Native as well as working on Laravel.
+As a seasoned **Full Stack Developer**, I bring comprehensive expertise in both frontend and backend technologies. With a solid foundation in PHP, Laravel, and MySQL, combined with advanced experience in cloud computing platforms like AWS, I have developed, deployed, and optimized scalable web applications for a range of clients. My technical proficiency is matched by a passion for building responsive, user-centric interfaces and designing robust server-side architecture.
 
-### Skills and Work Experience
+## Technical Skills & Expertise
 
-- 🖥️ PHP, LARAVEL
-- 💻 MySQL
-- 🖥️ HTML, CSS, JS, jQuery, BOOTSTRAP
-- 💻 I’m currently learning React 
+### Frontend Development  
+- 🖥️ Proficient in **HTML**, **CSS**, **JavaScript**, **jQuery**, and **Bootstrap** to create responsive, intuitive user interfaces.
 
- [<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/github.svg' alt='github' height='40'>](https://github.com/ashokarikatla0402) 
+### Backend Development  
+- 🖥️ Strong experience in **PHP** and **Laravel** for developing secure, high-performance web applications.
 
-![GitHub stats](https://github-readme-stats.vercel.app/api?username=ashokarikatla0402&show_icons=true)  
+### Database Management  
+- 💻 Expertise in **MySQL** to design and manage relational databases that ensure efficient data retrieval and storage.
+
+### Cloud Computing  
+- 💻 Hands-on experience with **AWS** services including:
+  - **EC2**
+  - **CodeBuild**
+  - **CodePipeline**
+  - **Route 53**
+  - **CloudFront**
+  - **S3**
+  - **RDS**
+  - **DynamoDB**
+
+### Programming Languages  
+- 💻 Proficient in **Python**, with practical experience in backend development and automation tasks.
