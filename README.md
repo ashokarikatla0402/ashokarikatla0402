@@ -41,27 +41,46 @@ As a seasoned **Full Stack Developer**, I bring comprehensive expertise in both 
 
 ## My Portfolio
 
-Here is a simplified version of my skills portfolio:
+Here is a simplified version of my skills portfolio, displayed in three sections per row:
 
-### Frontend Development
-![HTML Icon](https://img.icons8.com/ios/452/html-5.png) 
-- HTML, CSS, JavaScript, jQuery, Bootstrap
+<div style="display: flex; justify-content: space-between; flex-wrap: wrap;">
+  <div style="flex: 1 1 30%; padding: 10px;">
+    <h3>Frontend Development</h3>
+    <p><img src="https://img.icons8.com/ios/452/html-5.png" alt="HTML Icon"> HTML</p>
+    <p><img src="https://img.icons8.com/ios/452/css3.png" alt="CSS Icon"> CSS</p>
+    <p><img src="https://img.icons8.com/ios/452/javascript.png" alt="JavaScript Icon"> JavaScript</p>
+    <p><img src="https://img.icons8.com/ios/452/jquery.png" alt="jQuery Icon"> jQuery</p>
+    <p><img src="https://img.icons8.com/ios/452/bootstrap.png" alt="Bootstrap Icon"> Bootstrap</p>
+  </div>
+  
+  <div style="flex: 1 1 30%; padding: 10px;">
+    <h3>Backend Development</h3>
+    <p><img src="https://img.icons8.com/ios/452/php-logo.png" alt="PHP Icon"> PHP</p>
+    <p><img src="https://img.icons8.com/ios/452/laravel.png" alt="Laravel Icon"> Laravel</p>
+  </div>
+  
+  <div style="flex: 1 1 30%; padding: 10px;">
+    <h3>Database Management</h3>
+    <p><img src="https://img.icons8.com/ios/452/mysql-logo.png" alt="MySQL Icon"> MySQL</p>
+  </div>
+</div>
 
-### Backend Development
-![PHP Icon](https://img.icons8.com/ios/452/php-logo.png) 
-- PHP, Laravel
-
-### Database Management
-![MySQL Icon](https://img.icons8.com/ios/452/mysql-logo.png) 
-- MySQL for efficient data storage and retrieval
-
-### Cloud Computing (AWS)
-![AWS Icon](https://img.icons8.com/ios/452/aws.png) 
-- Experience with AWS services like EC2, RDS, Route 53, S3, and more
-
-### Python Programming
-![Python Icon](https://img.icons8.com/ios/452/python.png) 
-- Python for backend development and automation tasks
+<div style="display: flex; justify-content: space-between; flex-wrap: wrap;">
+  <div style="flex: 1 1 30%; padding: 10px;">
+    <h3>Cloud Computing (AWS)</h3>
+    <p><img src="https://img.icons8.com/ios/452/aws.png" alt="AWS Icon"> AWS</p>
+    <p><img src="https://img.icons8.com/ios/452/aws-ec2.png" alt="EC2 Icon"> EC2</p>
+    <p><img src="https://img.icons8.com/ios/452/amazon-s3.png" alt="S3 Icon"> S3</p>
+    <p><img src="https://img.icons8.com/ios/452/amazon-rds.png" alt="RDS Icon"> RDS</p>
+    <p><img src="https://img.icons8.com/ios/452/amazon-dynamodb.png" alt="DynamoDB Icon"> DynamoDB</p>
+    <p><img src="https://img.icons8.com/ios/452/cloudfront.png" alt="CloudFront Icon"> CloudFront</p>
+  </div>
+  
+  <div style="flex: 1 1 30%; padding: 10px;">
+    <h3>Programming Languages</h3>
+    <p><img src="https://img.icons8.com/ios/452/python.png" alt="Python Icon"> Python</p>
+  </div>
+</div>
 
 ---
 
@@ -75,4 +94,6 @@ Email: [ashok@example.com](mailto:ashok@example.com)
 
 ## Footer
 
-© 2025 Ashok Arikatla | All Rights Reserved
+<div align="center">
+  © 2025 Ashok Arikatla | All Rights Reserved
+</div>
