@@ -4,7 +4,7 @@ Welcome to the personal portfolio of **Ashok Arikatla**, a skilled **Full Stack 
 
 ## About Me
 
-As a seasoned **Full Stack Developer**, I bring comprehensive expertise in both frontend and backend technologies. With a solid foundation in PHP, Laravel, and MySQL, combined with advanced experience in cloud computing platforms like AWS, I have developed, deployed, and optimized scalable web applications for a range of clients. My technical proficiency is matched by a passion for building responsive, user-centric interfaces and designing robust server-side architecture.
+As a seasoned **Full Stack Developer**, I bring comprehensive expertise in both frontend and backend technologies. With a solid foundation in PHP, Laravel, and MySQL, combined with advanced experience in cloud computing platforms like AWS, I have developed, deployed, and optimized scalable web applications for a range of clients. My technical proficiency is matched by a passion for building responsive, user-centric interfaces and designing robust server-side architecture. 
 
 ---
 
