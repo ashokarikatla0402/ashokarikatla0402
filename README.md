@@ -10,39 +10,58 @@ As a seasoned **Full Stack Developer**, I bring comprehensive expertise in both 
 
 ## Technical Skills & Expertise
 
-Here are the core technologies I work with:
-
 ### Frontend Development
-
-| **Skill**      | **Skill**     |
-|----------------|---------------|
-| ![HTML](https://img.icons8.com/ios/452/html-5.png) **HTML**    | ![CSS](https://img.icons8.com/ios/452/css3.png) **CSS**    |
-| ![JavaScript](https://img.icons8.com/ios/452/javascript.png) **JavaScript**  | ![jQuery](https://img.icons8.com/ios/452/jquery.png) **jQuery** |
-| ![Bootstrap](https://img.icons8.com/ios/452/bootstrap.png) **Bootstrap** |   |
+- **HTML**
+- **CSS**
+- **JavaScript (JS)**
+- **jQuery**
+- **Bootstrap**
 
 ### Backend Development
-
-| **Skill**      | **Skill**     |
-|----------------|---------------|
-| ![PHP](https://img.icons8.com/ios/452/php-logo.png) **PHP**   | ![Laravel](https://img.icons8.com/ios/452/laravel.png) **Laravel**  |
+- **PHP**
+- **Laravel**
 
 ### Database Management
-
-| **Skill**      | **Skill**     |
-|----------------|---------------|
-| ![MySQL](https://img.icons8.com/ios/452/mysql-logo.png) **MySQL** |   |
+- **MySQL**
 
 ### Cloud Computing (AWS)
-
-| **Skill**      | **Skill**     |
-|----------------|---------------|
-| ![AWS](https://img.icons8.com/ios/452/aws.png) **AWS**  |   |
+- **EC2**
+- **CodeBuild**
+- **CodePipeline**
+- **Route 53**
+- **CloudFront**
+- **S3**
+- **RDS**
+- **DynamoDB**
 
 ### Programming Languages
+- **Python**
 
-| **Skill**      | **Skill**     |
-|----------------|---------------|
-| ![Python](https://img.icons8.com/ios/452/python.png) **Python** |   |
+---
+
+## My Portfolio
+
+Here is a simplified version of my skills portfolio:
+
+### Frontend Development
+![HTML Icon](https://img.icons8.com/ios/452/html-5.png) 
+- HTML, CSS, JavaScript, jQuery, Bootstrap
+
+### Backend Development
+![PHP Icon](https://img.icons8.com/ios/452/php-logo.png) 
+- PHP, Laravel
+
+### Database Management
+![MySQL Icon](https://img.icons8.com/ios/452/mysql-logo.png) 
+- MySQL for efficient data storage and retrieval
+
+### Cloud Computing (AWS)
+![AWS Icon](https://img.icons8.com/ios/452/aws.png) 
+- Experience with AWS services like EC2, RDS, Route 53, S3, and more
+
+### Python Programming
+![Python Icon](https://img.icons8.com/ios/452/python.png) 
+- Python for backend development and automation tasks
 
 ---
 
@@ -56,6 +75,4 @@ Email: [ashok@example.com](mailto:ashok@example.com)
 
 ## Footer
 
-<div align="center">
-  © 2025 Ashok Arikatla | All Rights Reserved
-</div>
+© 2025 Ashok Arikatla | All Rights Reserved
